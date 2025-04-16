@@ -1,6 +1,6 @@
 type Tarea = {
     id: number;
     texto: string;
-    completada: boolean;
+    estado: boolean;
 };
 export default Tarea;
