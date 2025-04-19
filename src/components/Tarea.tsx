@@ -52,11 +52,10 @@ export default function Tarea() {
                             <span className={`flex-grow ${tarea.estado ? 'line-through text-gray-400' : 'text-gray-800'}`}>
                                 {tarea.texto}
                             </span>
-                            <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                                tarea.estado 
-                                    ? 'bg-green-100 text-green-800' 
-                                    : 'bg-yellow-100 text-yellow-800'
-                            }`}>
+                            <span className={`px-2 py-1 rounded-full text-xs font-medium ${tarea.estado
+                                ? 'bg-green-100 text-green-800'
+                                : 'bg-yellow-100 text-yellow-800'
+                                }`}>
                                 {tarea.estado ? 'Completada' : 'Pendiente'}
                             </span>
                         </div>
