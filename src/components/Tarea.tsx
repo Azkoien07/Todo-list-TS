@@ -27,7 +27,7 @@ export default function Tarea() {
 
     return (
         <div className='flex flex-col items-center justify-center h-screen'>
-            <h1 className='text-6xl font-bold text-center mb-4'>Todo List</h1>
+            <h1 className='text-6xl font-bold text-center mb-4'>Todo List TS </h1>
             <p className='text-center mb-4'>Agrege sus tareas</p>
             <form onSubmit={agregarTarea} className='flex flex-col items-center justify-center'>
                 <input
